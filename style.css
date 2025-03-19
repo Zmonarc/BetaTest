@@ -2,7 +2,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: white;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +50,8 @@ textarea {
 }
 
 button {
-  background-color: green;
+  background: rgb(240,121,173);
+  background: radial-gradient(circle, rgba(240,121,173,1) 0%, rgba(221,230,17,1) 100%);
   color: white;
   padding: 10px;
   border: none;
@@ -58,7 +60,8 @@ button {
 }
 
 button:hover {
-  background-color: yellow;
+  background: rgb(240,121,173);
+  background: radial-gradient(circle, rgba(240,121,173,0.15730042016806722) 0%, rgba(221,230,17,1) 100%);
 }
 
 button img {
@@ -66,4 +69,11 @@ button img {
   height: 16px;
   vertical-align: middle;
   margin-left: 5px;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
 }
